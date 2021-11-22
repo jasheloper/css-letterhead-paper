@@ -22,11 +22,12 @@
     /**Extra background - Fallback for IE 10 - no support for linear-gradient() Double-position color stops - https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient()#browser_compatibility
     **/
     background: url("top-image.png") top no-repeat;
+    background-color: white;
 
     background: 
       url("top-image.png") top no-repeat,
       url("bottom-image.png") bottom no-repeat,
-      linear-gradient(to bottom,#bababa,20%,white 80%,#bababa);
+      linear-gradient(to bottom,#bababa,white 20%, white 80%,#bababa);
   }
   
   address {
@@ -48,7 +49,9 @@
     color: white;
     text-shadow: 1px 1px 1px black;
     background: url("logo.png") no-repeat;
-    filter: drop-shadow(5px 5px 1px rgba(133, 133, 133, 0.7));
+    /* filter: drop-shadow(5px 5px 1px rgba(133, 133, 133, 0.7)); */
+    box-shadow: 2px 2px 5px #000;
+	  border-radius: 50%;
   }
   
   /* Your CSS below here */
