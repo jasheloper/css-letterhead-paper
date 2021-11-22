@@ -48,7 +48,7 @@
     color: white;
     text-shadow: 1px 1px 1px black;
     background: url("logo.png") no-repeat;
-    /* filter: drop-shadow(9px 9px 10px #b8b8b8); */
+    filter: drop-shadow(5px 5px 1px rgba(133, 133, 133, 0.7));
   }
   
   /* Your CSS below here */
