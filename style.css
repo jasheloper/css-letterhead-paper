@@ -44,7 +44,8 @@ article {
   border-top: 3px solid #ff0000;
   border-bottom: 3px solid #ff0000;
 
-  /**Extra background - Fallback for IE 10 - no support for linear-gradient() Double-position color stops - https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient()#browser_compatibility
+  /**Extra background - Fallback for IE 10 - no support for linear-gradient() Double-position color stops - 
+  https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient()#browser_compatibility
   **/
   background: url("top-image.png") top no-repeat;
   background-color: white;
